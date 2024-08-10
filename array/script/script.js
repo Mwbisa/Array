@@ -11,7 +11,7 @@ sport.pop();
 console.log(sport);
 
 const sport2=[...sport];
-sport2.splice(0,2)
+sport2.splice(1,2)
 console.log(sport2);
 
 const[index0,...more]=sport2;
